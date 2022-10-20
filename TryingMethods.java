@@ -13,6 +13,7 @@ public class TryingMethods {
 
         // Testing sumOfEvenNumber method
         System.out.println(sumOfEvenNumber());
+
     }
 
     String monthOfTheYear(int month) {
@@ -80,6 +81,7 @@ public class TryingMethods {
         }
         return sum;
     }
+
 
     static int sumOfEvenNumber() {
         int sum = 0;
