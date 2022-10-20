@@ -4,21 +4,15 @@ public class TryingMethods {
         TryingMethods checkForMonth = new TryingMethods();
         System.out.println(checkForMonth.monthOfTheYear(1));
 
-        // allow pass depending on the gender
+        // Allow pass depending on the gender
         TryingMethods genderChecker = new TryingMethods();
         genderChecker.checkForGender("Female");
 
 
-        // summation of all numbers less than 1000 method
+        // Summation of all numbers less than 1000 method
         System.out.println(sumOfThousand());
 
         // The sum of even numbers between 12 and 103  method
-        System.out.println(sumOfEvenNumber());
-
-        // Testing sumOfThousand method
-        System.out.println(sumOfThousand());
-
-        // Testing sumOfEvenNumber method
         System.out.println(sumOfEvenNumber());
 
     }
