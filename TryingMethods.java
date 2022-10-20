@@ -3,6 +3,16 @@ public class TryingMethods {
         // Object to test monthOfTheYear method
         TryingMethods checkForMonth = new TryingMethods();
         System.out.println(checkForMonth.monthOfTheYear(1));
+
+        // allow pass depending on the gender
+        TryingMethods genderChecker = new TryingMethods();
+        genderChecker.checkForGender("Female");
+
+        // Testing sumOfThousand method
+        System.out.println(sumOfThousand());
+
+        // Testing sumOfEvenNumber method
+        System.out.println(sumOfEvenNumber());
     }
 
     String monthOfTheYear(int month) {
@@ -48,6 +58,37 @@ public class TryingMethods {
                 break;
         }
         return monthOfTheYear;
+    }
+
+    public void checkForGender(String sex) {
+
+        if (sex == "Female") {
+            System.out.println("Welcome to " + sex + " sex educaton");
+        } else if (sex == "Male") {
+            System.out.println("Only Females are allowed");
+
+        } else {
+            System.out.println("Enter your sex");
+        }
+    }
+
+    static int sumOfThousand() {
+        int sum = 0, i = 1;
+        while (i < 1000) {
+            sum += i;
+            i++;
+        }
+        return sum;
+    }
+
+    static int sumOfEvenNumber() {
+        int sum = 0;
+        for (int i = 12; i <= 103; i++) {
+            if (i % 2 == 0) {
+                sum += i;
+            }
+        }
+        return sum;
     }
 
 }
