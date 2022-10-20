@@ -10,6 +10,7 @@ public class TryingMethods {
 
         // Testing sumOfThousand method
         System.out.println(sumOfThousand());
+
     }
 
     String monthOfTheYear(int month) {
@@ -68,7 +69,6 @@ public class TryingMethods {
             System.out.println("Enter your sex");
         }
     }
-
     static int sumOfThousand() {
         int sum = 0, i = 1;
         while (i < 1000) {
