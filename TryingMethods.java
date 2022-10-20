@@ -8,10 +8,10 @@ public class TryingMethods {
         TryingMethods genderChecker = new TryingMethods();
         genderChecker.checkForGender("Female");
 
-        // Testing sumOfThousand method
+        // summation of all numbers less than 1000 method
         System.out.println(sumOfThousand());
 
-        // Testing sumOfEvenNumber method
+        // The sum of even numbers between 12 and 103  method
         System.out.println(sumOfEvenNumber());
     }
 
