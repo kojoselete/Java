@@ -3,6 +3,10 @@ public class TryingMethods {
         // Object to test monthOfTheYear method
         TryingMethods checkForMonth = new TryingMethods();
         System.out.println(checkForMonth.monthOfTheYear(1));
+
+        // allow pass depending on the gender
+        TryingMethods genderChecker = new TryingMethods();
+        genderChecker.checkForGender("Female");
     }
 
     String monthOfTheYear(int month) {
@@ -48,6 +52,18 @@ public class TryingMethods {
                 break;
         }
         return monthOfTheYear;
+    }
+
+    public void checkForGender(String sex) {
+
+        if (sex == "Female") {
+            System.out.println("Welcome to " + sex + " sex educaton");
+        } else if (sex == "Male") {
+            System.out.println("Only Females are allowed");
+
+        } else {
+            System.out.println("Enter your sex");
+        }
     }
 
 }
