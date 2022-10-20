@@ -10,6 +10,9 @@ public class TryingMethods {
 
         // Testing sumOfThousand method
         System.out.println(sumOfThousand());
+
+        // Testing sumOfEvenNumber method
+        System.out.println(sumOfEvenNumber());
     }
 
     String monthOfTheYear(int month) {
@@ -74,6 +77,16 @@ public class TryingMethods {
         while (i < 1000) {
             sum += i;
             i++;
+        }
+        return sum;
+    }
+
+    static int sumOfEvenNumber() {
+        int sum = 0;
+        for (int i = 12; i <= 103; i++) {
+            if (i % 2 == 0) {
+                sum += i;
+            }
         }
         return sum;
     }
